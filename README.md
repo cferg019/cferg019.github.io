@@ -1,1 +1,2 @@
-# cferg019.github.io
+# Portfolio
+Homework assignment 1 - portfolio web page 

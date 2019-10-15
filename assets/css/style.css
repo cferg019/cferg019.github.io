@@ -1,0 +1,10 @@
+header {
+    background: teal;
+    color: #ffffff;
+}
+
+#about-me {
+    width: 960px;
+    float: left;
+    margin: 0 auto;
+}
