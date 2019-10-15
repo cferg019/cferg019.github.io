@@ -1,10 +1,88 @@
+
+body {
+    margin: 0;
+}
+
 header {
-    background: teal;
+    background: lightskyblue;
+    clear: both;
+    color: white;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+
+.container {
+width: 900px;
+margin: auto;
+}
+
+p {
+    line-height: 150%;
+}
+
+#bioimage {
+    float: left;
+    padding-right: 10px;
+}
+
+#about-me {
+    border-style: groove;
+    padding: 1px 10px;
+    margin-top: 10px
+}
+/* header {
+    background: lightblue;
     color: #ffffff;
+    overflow: auto;
+    height: 75px;
+    width: 100%
 }
 
 #about-me {
     width: 960px;
-    float: left;
-    margin: 0 auto;
+    margin: auto;
+    background-color: lightcoral;
 }
+
+.navitem {
+    text-align: center;
+    font-size: 17px;
+    background-color: lightseagreen;
+    float: right;
+    padding: 28px 16px;
+    font-size: 17px;
+}
+
+h1 {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+p {
+    float: left;
+} */
