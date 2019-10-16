@@ -32,7 +32,9 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 50px;
-    padding-top: 30px;
+    padding-top: 32px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -51,7 +53,7 @@ p {
 
 #about-me {
     border-style: groove;
-    padding: 1px 10px;
+    padding: 0 10px;
     margin-top: 10px
 }
 /* header {
