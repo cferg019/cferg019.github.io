@@ -1,6 +1,8 @@
 
 body {
     margin: 0;
+    background-color: aliceblue;
+    font-family: 'Roboto Slab', serif;
 }
 
 header {
@@ -34,7 +36,6 @@ nav li {
     margin-left: 50px;
     padding-top: 32px;
     font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -51,40 +52,9 @@ p {
     padding-right: 10px;
 }
 
-#about-me {
+#about-me, #portfolio, #contactme {
     border-style: groove;
     padding: 0 10px;
-    margin-top: 10px
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-/* header {
-    background: lightblue;
-    color: #ffffff;
-    overflow: auto;
-    height: 75px;
-    width: 100%
-}
-
-#about-me {
-    width: 960px;
-    margin: auto;
-    background-color: lightcoral;
-}
-
-.navitem {
-    text-align: center;
-    font-size: 17px;
-    background-color: lightseagreen;
-    float: right;
-    padding: 28px 16px;
-    font-size: 17px;
-}
-
-h1 {
-    width: 50%;
-    float: left;
-    height: 100%;
-}
-
-p {
-    float: left;
-} */
