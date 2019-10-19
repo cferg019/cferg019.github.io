@@ -1,12 +1,27 @@
 
 body {
     margin: 0;
-    background-color: aliceblue;
+    background: linear-gradient( 259deg,  rgba(222,95,95,0.1) -5%, rgba(53,88,218,0.1) 133.7% );
     font-family: 'Lato', sans-serif;
 }
 
+h1, h2, p, label {
+    color: rgb(87, 87, 87)
+}
+
+input {
+    height: 25px;
+    margin: 10px 0;
+    border:solid 1px rgb(201, 201, 201);
+}
+
+textarea {
+    margin-top: 10px;
+    border:solid 1px rgb(201, 201, 201);
+}
+
 header {
-    background: lightskyblue;
+    background: linear-gradient( 259deg,  rgba(222,95,95,1) -5%, rgba(53,88,218,1) 133.7% );
     clear: both;
     color: white;
 }
@@ -23,6 +38,10 @@ header::after {
 
 nav {
     float: right;
+}
+
+.container h1 {
+    color: white;
 }
 
 nav ul {
@@ -53,7 +72,7 @@ p {
 }
 
 #about-me, #portfolio, #contactme {
-    border-style: groove;
+    border:solid 1px rgb(201, 201, 201);
     padding: 0 25px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -97,12 +116,13 @@ button:hover {
     margin-top: 170px;
     width: 200px;
     height: 20px;
-    background-color: black;
+    background-color: rgb(71, 71, 71);
     vertical-align: middle;
 }
 
 .link a {
     text-decoration: none;
+    color: white;
 }
 .link a:hover {
     color: lightslategray;;
@@ -110,4 +130,15 @@ button:hover {
 .link a:visited {
     text-decoration: none;
 
+}
+
+footer {
+    padding: 10px 10px 10px 10px;
+    background: linear-gradient( 259deg,  rgba(160,92,142,1) -5%, rgba(126,91,166,1) 133.7% );
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
