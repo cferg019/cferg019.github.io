@@ -2,7 +2,7 @@
 body {
     margin: 0;
     background-color: aliceblue;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -39,8 +39,8 @@ nav li {
 }
 
 .container {
-width: 900px;
-margin: auto;
+    width: 900px;
+    margin: auto;
 }
 
 p {
@@ -54,11 +54,12 @@ p {
 
 #about-me, #portfolio, #contactme {
     border-style: groove;
-    padding: 0 10px;
-    margin-top: 10px;
+    padding: 0 25px;
+    margin-top: 20px;
     margin-bottom: 10px;
     background-color: white;;
 }
+
 input[type="text"] {
     width: 200px;
 }
@@ -67,9 +68,46 @@ textarea {
     resize: none
 }
 
-input[type=submit] {
-    margin-bottom: 10px;
+button {
+    margin: 10px 0;
+    width: 100px;
+    height: 25px;
 }
-input[type=submit]:hover {
+
+button:hover {
     background-color: lightblue;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px 20px 30px;
+}
+
+.banner {
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 5px 0;
+    margin-top: 170px;
+    width: 200px;
+    height: 20px;
+    background-color: black;
+    vertical-align: middle;
+}
+
+.link a {
+    text-decoration: none;
+}
+.link a:hover {
+    color: lightslategray;;
+}
+.link a:visited {
+    text-decoration: none;
+
 }
